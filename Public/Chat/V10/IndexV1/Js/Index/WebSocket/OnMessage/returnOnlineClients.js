@@ -1,7 +1,5 @@
 let StartFunc = ({ inData }) => {
     const tbody = document.querySelector("#active-convos-list");
-    console.log("inData : ", inData);
-
     if (tbody) tbody.innerHTML = "";
 
     inData.forEach((element) => {

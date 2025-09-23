@@ -108,4 +108,8 @@ If you want to run the server with environment variables:
 
 - tables added
 
+### 1.1.16
+
+- chat version started
+
 ---
