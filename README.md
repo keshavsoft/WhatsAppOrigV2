@@ -124,4 +124,8 @@ If you want to run the server with environment variables:
 
 - protected working
 
+### 1.1.20
+
+- Data deleted
+
 ---
