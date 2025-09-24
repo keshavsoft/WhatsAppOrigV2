@@ -1,19 +1,21 @@
 let StartFunc = ({ inData }) => {
     const tbody = document.querySelector("#active-convos-list");
+    console.log("inData : ", inData);
+
     if (tbody) tbody.innerHTML = "";
 
     inData.forEach((element) => {
-        jFLocalAddToDom({
-            inName: element.Name,
-            inId: element.id,
-        });
-
         let jVarLocalUserNameId = document.getElementById('UserNameId');
         const jVarLocalWebSocketId = jVarLocalUserNameId.dataset.webSocketId;
 
         if (element.id === jVarLocalWebSocketId) {
             // console.log("aaaaaaaaaaaaa");
             jFLocalToInputUserNameId(element.Name);
+        } else {
+            jFLocalAddToDom({
+                inName: element.Name,
+                inId: element.id,
+            });
         };
     });
 };
