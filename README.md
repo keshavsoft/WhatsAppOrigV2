@@ -120,4 +120,8 @@ If you want to run the server with environment variables:
 
 - chat latest version
 
+### 1.1.19
+
+- protected working
+
 ---

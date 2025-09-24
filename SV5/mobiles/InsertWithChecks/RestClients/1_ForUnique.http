@@ -1,0 +1,4 @@
+POST http://localhost:9113/SV5/mobiles/InsertWithChecks/ForUnique
+Content-Type: application/json
+
+{}
