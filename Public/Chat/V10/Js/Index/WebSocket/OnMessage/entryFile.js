@@ -3,7 +3,7 @@
 import { StartFunc as StartFuncFromwAProfile } from "../OnMessage/wAProfile.js";
 import { StartFunc as StartFuncFromChangeName } from "../OnMessage/ChangeName.js";
 import { StartFunc as StartFuncFromGetWebSocketId } from "../OnMessage/getWebSocketId.js";
-import { StartFunc as StartFuncFromreturnOnlineClients } from "../OnMessage/returnOnlineClients.js";
+import { StartFunc as StartFuncFromreturnOnlineClients } from "../OnMessage/returnOnlineClientsV1.js";
 import { StartFunc as StartFuncFromMyChat } from "../OnMessage/myChat.js";
 
 let StartFunc = (event) => {
