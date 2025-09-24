@@ -116,4 +116,8 @@ If you want to run the server with environment variables:
 
 - started working on chatin.html
 
+### 1.1.18
+
+- chat latest version
+
 ---
