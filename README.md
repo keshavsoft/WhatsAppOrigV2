@@ -128,4 +128,8 @@ If you want to run the server with environment variables:
 
 - Data deleted
 
+### 1.1.21
+
+- Data folder added
+
 ---
